@@ -26,21 +26,26 @@ input:focus{
 }
 
 .correct {
-    border-color: green;
-    
+    border-color: rgba(68, 191, 68, 0.75);
 }
 
 .correct:focus {
     border-color: aquamarine;
-    box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+    box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+}
+
+.incorrect {
+    border-color : rgba(191, 68, 68, 0.75);
+    box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
 }
 
 .tooltip {
     display: inline-block;
     margin-left: 20px;
     padding: 2px 4px;
-    background-color: cadetblue;
-    border-radius: 4px solid;
+    border: 1px solid #555;
+    background-color: #CCC;
+    border-radius: 4px;
 }
 
 .formulaire {
