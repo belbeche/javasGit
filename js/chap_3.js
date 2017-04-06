@@ -1,30 +1,30 @@
 /*
 Exercice : construire et afficher une progression 
-*/
 
-var ligne = "";
+var ligne = prompt("Progression level");
 for (var i = 0; i <= 40 ;i++ ) {
     ligne = ligne + "";
     // Autre possibilité avec l'opérateur += 
     // ligne += "#" 
     console.log(ligne);
-}
+}*/
 
 // Exercice tour manège 
 
-var nbTours = Number(prompt("Chiffre réel"));
+var nbTours = Number(prompt("Argent souhaitez"));
 
 var chiffre = "";
 while(chiffre <= nbTours){
     console.log("L'argent sur votre compte est de" + chiffre);
     chiffre++;
 }
+alert("Argent reçus" + " : " + nbTours +"\n ATTENTION: regardez la console pour voir le déroulement");
 
 
 // Contrôle de la données saisi par l'utilisateur
 // Tant que X n'es pas saisie on enregistre les informations dans lettre
 var lettre = "";
-while (lettre !== "X") {
+while (lettre !== "x") {
     lettre = prompt("Tapez une lettre ou x pour sortir :");
     console.log(lettre);
 }

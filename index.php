@@ -26,17 +26,17 @@
                 <div>Formulaire d'inscription</div>
                 <label>Sexe : </label>
                     <label><span class="form_col">Homme</span></label>
-                        <input name="sex" type="radio" value="H"/>
+                        <input name="sex" id="sex" type="radio" value="H"/>
                     <label><span>Femme</span></label>
-                        <input name="sex" type="radio" value="F"/>
+                        <input name="sex" id="sex" type="radio" value="F"/>
                     <label>
                         <span class="tooltip"> Veuillez séléctionnez votre sexe</span>
                     </label><br/>
-                    <label class="form_col" for="user">User:</label>
+                    <label class="form_col" for="user">Pseudo:</label>
                         <input name="user" id="user" type="text" placeholder="Nom user please"/>
                         <label><span class="tooltip"> 4 caractères minimums</span></label>
-                    <label class="form_col" for="mail">Prénom:</label>
-                        <input name="prenom" type="text" placeholder="Votre prenom" />
+                    <label class="form_col" for="prenom">Prénom:</label>
+                        <input name="prenom" id="prenom" type="text" placeholder="Votre prenom" />
                         <label><span class="tooltip"> 4 caractère minimums </span></label>
                     <label class="form_col" for="age">Âge :</label>
                         <input name="age" id="age" type="text" placeholder="Votre âge"/>
@@ -44,7 +44,7 @@
                     <label class="form_col" for="mdp">Mot de passe:</label>
                         <input name="mdp" id="mdp" type="password" placeholder="Votre mot de passe"/>
                             <span class="tooltip"> Le mot de passe doit pas faire moins de 6 caractère</span>
-                    <label class="form_col" for="mdp_confirm"><span>Confirmation mdp:</span></label>
+                    <label class="form_col" for="mdp_confirm">Confirmation mdp:</label>
                         <input name="mdp_confirm" id="mdp_confirm" type="password" placeholder="Identique au mot de passe"/>
                         <span class="tooltip"> Le mot de passe de confirmation doit être identique à celui d'origine</span><br/>
                     <label class="form_col" for="country">Pays</label>
@@ -64,9 +64,7 @@
             </form>
         </div>
     </article>
-
-
-    <!--<script src="js/chap_3.js"></script>-->
+    <script src="js/chap_3.js"></script>
     
     <footer> @walid Belbeche </footer>
     
